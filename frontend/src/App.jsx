@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import Login from './Login'
-import SearchBuses from './SearchBuses'
+import Login from './pages/Login'
+import SearchBuses from './pages/SearchBuses'
 import './App.css'
+import Register from './pages/Register'
 function App() {
   return (
     <BrowserRouter>
@@ -9,6 +10,7 @@ function App() {
         <Route path="/" element={<Navigate to="/login" />} />
         <Route path="/login" element={<Login />} />
         <Route path="/search-buses" element={<SearchBuses />} />
+        <Route path="/Register" element={<Register/>} />
       </Routes>
     </BrowserRouter>
   )
