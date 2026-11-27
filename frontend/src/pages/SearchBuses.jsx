@@ -9,7 +9,7 @@ function SearchBuses() {
 }
   return (
     <>
-   <button onClick={displaydata}>button</button>
+   <button onClick={displaydata}>Welocome to the SearchBus station</button>
    </>
   )
 }
