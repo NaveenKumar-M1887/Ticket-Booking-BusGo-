@@ -10,7 +10,7 @@ function Register() {
   })
   function onSubmit(data) {
     console.log(data)
-    alert('Registration details validated!')
+    alert('Registration details validated!.')
     navigate('/')
   }
   return (
