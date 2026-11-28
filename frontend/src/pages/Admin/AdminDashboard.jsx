@@ -5,7 +5,7 @@ function AdminDashboard() {
         Admin Dashboard
       </h2>
       <p className="mt-3 text-slate-600">
-        Welcome to BusGo Admin Dashboard.
+        Welcome to BusGo Admin Dashboard..
       </p>
 
     </div>
